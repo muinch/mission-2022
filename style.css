@@ -1,22 +1,55 @@
 /*
-Fonts: font-family: font-family: "Yeseva One", ont-family: "Poppins", sans-serif; cursive; "Lobster", cursive;
-Colors: #333333, #3E3E3E, #FF5959, #13103A
+Fonts: font-family: 'Lobster', cursive; font-family: 'Manrope', sans-serif; font-family: 'Poppins', sans-serif; font-family: 'Yeseva One', cursive;
+Colors: #333333, #3E3E3E, #FF5959, #13103A, #D9DBE1
 */
 
+/* Global */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
   display: flex;
+  padding: 0 10%;
+}
+
+section {
+  padding: 30px 10%;
 }
 
 .half-width {
   width: 50%;
-  padding-left: 10%;
 }
 
+.one-third {
+  width: 33%;
+  margin-right: 24px;
+}
+
+.two-third {
+  width: 66%;
+}
+
+.small {
+  font-size: 16px;
+  color: #434343;
+}
+
+.link-button {
+  text-decoration: none;
+  background-color: #ff5959;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 36px;
+  display: inline-block;
+  margin: 10px 0;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Header Section */
 header h1 {
   font-family: "Yeseva One", cursive;
   font-size: 60px;
@@ -34,7 +67,6 @@ header h1 {
   height: 124px;
   left: 0px;
   top: 18px;
-
   background: #ff5959;
   border-radius: 5px;
 }
@@ -48,22 +80,131 @@ p {
   color: #3e3e3e;
 }
 
-.small {
-  font-size: 16px;
-  color: #434343;
-}
-
 header img {
-  width: 60%;
+  width: 426px;
+  height: auto;
+  padding-left: 25%;
 }
 
-.link-button {
-  text-decoration: none;
-  background-color: #ff5959;
-  font-size: 16px;
-  padding: 16px 36px;
-  display: inline-block;
-  margin: 10px 0;
+/* My Mission 2022 Section */
+
+.card {
+  display: flex;
+}
+
+.card-item {
+  border-radius: 26px;
+  padding: 45px;
+}
+
+#card-1 {
+  background-color: rgba(78, 158, 166, 0.1);
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card img {
+  width: 141px;
+  height: auto;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#card-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+
+#card-3 {
+  background-color: #fff4d6;
+}
+
+/* Develop Without Limits Section */
+#without-limits {
+  display: flex;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+  background-size: 227px 227px;
+}
+
+#without-limits img {
+  width: 400px;
+  height: auto;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Global Community */
+
+#global-community {
+  display: flex;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: 90% 100%;
+  background-size: 227px 227px;
+}
+
+#global-community img {
+  width: 400px;
+  height: auto;
+  margin-left: 50px;
+}
+
+/* Portfolio Section */
+#portfolio {
+}
+
+.showcase {
+  display: flex;
+}
+
+.showcase img {
+  width: 100%;
+}
+
+.showcase h2 {
+  text-align: left;
+}
+
+.showcase .one-third {
+  padding: 100px;
+}
+
+.showcase .two-third {
+  padding-top: 100px;
+}
+
+/* Footer */
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  margin: 0;
+  padding: 25px 0;
+}
+
+footer h3 {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
   color: #ffffff;
-  border-radius: 5px;
+  line-height: 1;
+}
+
+footer .highlight {
+  color: #ff5959;
+}
+
+footer p {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  color: #d9dbe1;
 }
