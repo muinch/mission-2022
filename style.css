@@ -87,7 +87,6 @@ header img {
 }
 
 /* My Mission 2022 Section */
-
 .card {
   display: flex;
 }
@@ -145,7 +144,6 @@ h3 {
 }
 
 /* Global Community */
-
 #global-community {
   display: flex;
   background-image: url(images/shapes/shape-1.png);
@@ -161,9 +159,6 @@ h3 {
 }
 
 /* Portfolio Section */
-#portfolio {
-}
-
 .showcase {
   display: flex;
 }
